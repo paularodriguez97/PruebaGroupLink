@@ -1,0 +1,30 @@
+uuid: ac86dd80-7b67-413d-ba5e-b57673466acd
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.grid_principal
+  module:
+    - system
+    - views
+  theme:
+    - constructhor
+id: constructhor_views_block__grid_principal_block_1
+theme: constructhor
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:grid_principal-block_1'
+settings:
+  id: 'views_block:grid_principal-block_1'
+  label: 'Proyectos Destacados'
+  provider: views
+  label_display: visible
+  views_label: 'Proyectos Destacados'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

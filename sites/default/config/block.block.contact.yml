@@ -1,0 +1,20 @@
+uuid: f4fbcda2-1126-4a9c-9831-2ad98ec50daa
+langcode: es
+status: true
+dependencies:
+  module:
+    - my_module
+  theme:
+    - constructhor
+id: contact
+theme: constructhor
+region: content
+weight: -1
+provider: null
+plugin: my_module_contact_block
+settings:
+  id: my_module_contact_block
+  label: Contacto
+  provider: my_module
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 2d63327f-24da-406b-ac68-823dc192fc68
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - constructhor
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: constructhor_content
+theme: constructhor
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front> '
+    negate: true
+    context_mapping: {  }

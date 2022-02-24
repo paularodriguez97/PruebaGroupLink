@@ -1,0 +1,22 @@
+uuid: ac59a3b7-e688-4beb-9319-3802d0fca07a
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - constructhor
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: constructhor_messages
+theme: constructhor
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

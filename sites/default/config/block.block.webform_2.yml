@@ -1,0 +1,31 @@
+uuid: 89874a97-594b-4c2a-960f-1b17e67a9715
+langcode: es
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - system
+    - webform
+  theme:
+    - bootstrap
+id: webform_2
+theme: bootstrap
+region: content
+weight: -4
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Contacto
+  provider: webform
+  label_display: visible
+  webform_id: contact
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

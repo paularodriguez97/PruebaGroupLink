@@ -1,0 +1,70 @@
+uuid: 86d95b3a-99db-41e4-8e43-86fa791812e5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.proyectos.body
+    - field.field.node.proyectos.field_ciudad
+    - field.field.node.proyectos.field_destacado
+    - field.field.node.proyectos.field_imagen
+    - field.field.node.proyectos.field_imagen_dstacada
+    - node.type.proyectos
+  module:
+    - image
+    - text
+    - user
+id: node.proyectos.default
+targetEntityType: node
+bundle: proyectos
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_ciudad:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_destacado:
+    weight: 4
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_imagen:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_imagen_dstacada:
+    weight: 5
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

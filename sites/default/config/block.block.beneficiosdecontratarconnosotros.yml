@@ -1,0 +1,31 @@
+uuid: 99b009fb-b38c-4334-8f0a-bb42694bc75c
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:beneficios:26491be3-8de6-4dd0-95d0-5f12b89821ac'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: beneficiosdecontratarconnosotros
+theme: bartik
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:26491be3-8de6-4dd0-95d0-5f12b89821ac'
+settings:
+  id: 'block_content:26491be3-8de6-4dd0-95d0-5f12b89821ac'
+  label: 'Beneficios de contratar con nosotros'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front> '
+    negate: false
+    context_mapping: {  }

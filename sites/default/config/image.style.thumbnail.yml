@@ -1,0 +1,17 @@
+uuid: 9413b416-e460-4e9a-9737-5c158df5b6ec
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: cCiWdBHgLwj5omG35lsKc4LkW4MBdmcctkVop4ol5x0
+name: thumbnail
+label: 'Miniatura (100×100)'
+effects:
+  2c8a0c93-1936-45a4-b28e-13c000ef467a:
+    uuid: 2c8a0c93-1936-45a4-b28e-13c000ef467a
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 100
+      height: 100
+      anchor: center-center

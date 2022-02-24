@@ -1,0 +1,172 @@
+[
+		{
+			"provinceName": "Amazonas",
+			"provinceCode": "91",
+			"CDDC": 83658
+		},
+		{
+			"provinceName": "Antioquia",
+			"provinceCode": "05",
+			"CDDC": 83659
+		},
+		{
+			"provinceName": "Arauca",
+			"provinceCode": "81",
+			"CDDC": 83660
+		},
+		{
+			"provinceName": "San Andrés y Providencia",
+			"provinceCode": "88",
+			"CDDC": 83661
+		},
+		{
+			"provinceName": "Atlántico",
+			"provinceCode": "08",
+			"CDDC": 83662
+		},
+		{
+			"provinceName": "Bogotá",
+			"provinceCode": "11",
+			"CDDC": 83663
+		},
+		{
+			"provinceName": "Bolívar",
+			"provinceCode": "13",
+			"CDDC": 83664
+		},
+		{
+			"provinceName": "Boyacá",
+			"provinceCode": "15",
+			"CDDC": 83665
+		},
+		{
+			"provinceName": "Caldas",
+			"provinceCode": "17",
+			"CDDC": 83666
+		},
+		{
+			"provinceName": "Caquetá",
+			"provinceCode": "18",
+			"CDDC": 83667
+		},
+		{
+			"provinceName": "Casanare",
+			"provinceCode": "85",
+			"CDDC": 83668
+		},
+		{
+			"provinceName": "Cauca",
+			"provinceCode": "19",
+			"CDDC": 83669
+		},
+		{
+			"provinceName": "Cesar",
+			"provinceCode": "20",
+			"CDDC": 83670
+		},
+		{
+			"provinceName": "Chocó",
+			"provinceCode": "27",
+			"CDDC": 83671
+		},
+		{
+			"provinceName": "Córdoba",
+			"provinceCode": "23",
+			"CDDC": 83672
+		},
+		{
+			"provinceName": "Cundinamarca",
+			"provinceCode": "25",
+			"CDDC": 83673
+		},
+		{
+			"provinceName": "Guainía",
+			"provinceCode": "94",
+			"CDDC": 83674
+		},
+		{
+			"provinceName": "Guaviare",
+			"provinceCode": "95",
+			"CDDC": 83675
+		},
+		{
+			"provinceName": "Huila",
+			"provinceCode": "41",
+			"CDDC": 83676
+		},
+		{
+			"provinceName": "La Guajira",
+			"provinceCode": "44",
+			"CDDC": 83677
+		},
+		{
+			"provinceName": "Magdalena",
+			"provinceCode": "47",
+			"CDDC": 83678
+		},
+		{
+			"provinceName": "Meta",
+			"provinceCode": "50",
+			"CDDC": 83679
+		},
+		{
+			"provinceName": "Nariño",
+			"provinceCode": "52",
+			"CDDC": 83680
+		},
+		{
+			"provinceName": "Norte de Santander",
+			"provinceCode": "54",
+			"CDDC": 83681
+		},
+		{
+			"provinceName": "Putumayo",
+			"provinceCode": "86",
+			"CDDC": 83682
+		},
+		{
+			"provinceName": "Quindío",
+			"provinceCode": "63",
+			"CDDC": 83683
+		},
+		{
+			"provinceName": "Risaralda",
+			"provinceCode": "66",
+			"CDDC": 83684
+		},
+		{
+			"provinceName": "Santander",
+			"provinceCode": "68",
+			"CDDC": 83685
+		},
+		{
+			"provinceName": "Sucre",
+			"provinceCode": "70",
+			"CDDC": 83686
+		},
+		{
+			"provinceName": "Tolima",
+			"provinceCode": "73",
+			"CDDC": 83687
+		},
+		{
+			"provinceName": "Valle del Cauca",
+			"provinceCode": "76",
+			"CDDC": 83688
+		},
+		{
+			"provinceName": "Vaupés",
+			"provinceCode": "97",
+			"CDDC": 83689
+		},
+		{
+			"provinceName": "Vichada",
+			"provinceCode": "99",
+			"CDDC": 83690
+		},
+		{
+			"provinceName": "",
+			"provinceCode": null,
+			"CDDC": null
+		}
+	]

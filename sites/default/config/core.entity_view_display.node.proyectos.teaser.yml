@@ -1,0 +1,39 @@
+uuid: 1a2bcd27-6078-4aba-b97d-e2bc8f745c21
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.proyectos.body
+    - field.field.node.proyectos.field_ciudad
+    - field.field.node.proyectos.field_destacado
+    - field.field.node.proyectos.field_imagen
+    - field.field.node.proyectos.field_imagen_dstacada
+    - node.type.proyectos
+  module:
+    - text
+    - user
+id: node.proyectos.teaser
+targetEntityType: node
+bundle: proyectos
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_ciudad: true
+  field_destacado: true
+  field_imagen: true
+  field_imagen_dstacada: true
+  langcode: true

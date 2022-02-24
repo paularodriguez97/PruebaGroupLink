@@ -1,0 +1,42 @@
+uuid: 4b0971cd-4dec-474d-bd20-1c037acd1404
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.beneficios
+    - field.field.block_content.beneficios.field_item
+  module:
+    - paragraphs
+id: block_content.beneficios.default
+targetEntityType: block_content
+bundle: beneficios
+mode: default
+content:
+  field_item:
+    type: entity_reference_paragraphs
+    weight: 26
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

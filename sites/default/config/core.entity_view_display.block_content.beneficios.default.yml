@@ -1,0 +1,25 @@
+uuid: 07742a33-24b3-4240-a8f6-872ea8eae2bb
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.beneficios
+    - field.field.block_content.beneficios.field_item
+  module:
+    - entity_reference_revisions
+id: block_content.beneficios.default
+targetEntityType: block_content
+bundle: beneficios
+mode: default
+content:
+  field_item:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

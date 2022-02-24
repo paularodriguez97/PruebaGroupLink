@@ -1,0 +1,35 @@
+uuid: 9d42f4e4-a9a4-40bc-aea9-cf2bae4dbd1b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.imagen_and_texto.field_descripcion
+    - field.field.paragraph.imagen_and_texto.field_icono_o_imagen
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.imagen_and_texto
+  module:
+    - image
+    - text
+id: paragraph.imagen_and_texto.default
+targetEntityType: paragraph
+bundle: imagen_and_texto
+mode: default
+content:
+  field_descripcion:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 200
+    third_party_settings: {  }
+    type: text_trimmed
+    region: content
+  field_icono_o_imagen:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

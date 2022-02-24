@@ -1,0 +1,30 @@
+uuid: 32dee147-4587-45b7-a4c9-9595547512ae
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.slideshow
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__slideshow_block_1_2
+theme: bootstrap
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:slideshow-block_1'
+settings:
+  id: 'views_block:slideshow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

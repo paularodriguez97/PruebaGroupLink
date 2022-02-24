@@ -1,0 +1,31 @@
+uuid: 3a5af567-9d73-45f1-9f5c-2c1354f2af1a
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.beneficios
+    - field.storage.block_content.field_item
+    - paragraphs.paragraphs_type.imagen_and_texto
+  module:
+    - entity_reference_revisions
+id: block_content.beneficios.field_item
+field_name: field_item
+entity_type: block_content
+bundle: beneficios
+label: Item
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      imagen_and_texto: imagen_and_texto
+    target_bundles_drag_drop:
+      imagen_and_texto:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

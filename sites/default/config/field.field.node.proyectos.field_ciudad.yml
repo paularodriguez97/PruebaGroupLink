@@ -1,0 +1,19 @@
+uuid: 814c887b-2503-438a-ac35-9ea83d58b207
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ciudad
+    - node.type.proyectos
+id: node.proyectos.field_ciudad
+field_name: field_ciudad
+entity_type: node
+bundle: proyectos
+label: Ciudad
+description: 'Ingrese la ciudad del negocio'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

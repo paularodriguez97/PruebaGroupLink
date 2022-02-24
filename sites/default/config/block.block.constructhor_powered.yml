@@ -1,0 +1,22 @@
+uuid: 32a4a56f-c033-4d43-b330-ab24c88280ee
+langcode: es
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - constructhor
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: constructhor_powered
+theme: constructhor
+region: sidebar_first
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 51a9787b-9e1e-424f-ba0e-a84d1bd7cdf6
+langcode: es
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - constructhor
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: constructhor_breadcrumbs
+theme: constructhor
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

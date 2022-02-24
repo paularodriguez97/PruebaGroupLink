@@ -1,0 +1,15 @@
+uuid: 2a772ba2-84bc-47e4-bba5-310daa385352
+langcode: es
+status: true
+dependencies: {  }
+name: grid
+label: grid
+effects:
+  e8560306-cc7d-4b00-8dc7-4a726bd83207:
+    uuid: e8560306-cc7d-4b00-8dc7-4a726bd83207
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 200
+      anchor: center-center

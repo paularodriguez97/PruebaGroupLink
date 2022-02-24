@@ -1,0 +1,20 @@
+uuid: e85c8b23-393b-41ee-9e72-de0615dc8394
+langcode: es
+status: true
+dependencies:
+  theme:
+    - constructhor
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: constructhor_local_actions
+theme: constructhor
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

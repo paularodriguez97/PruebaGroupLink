@@ -1,0 +1,8 @@
+uuid: 8668c221-efea-49c3-b466-fa2cfe358d10
+langcode: es
+status: true
+dependencies: {  }
+name: Ciudad
+vid: ciudad
+description: 'Ciudades de Colombia'
+weight: 0

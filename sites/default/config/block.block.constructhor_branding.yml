@@ -1,0 +1,25 @@
+uuid: f4264427-7a40-4a83-aa53-3c767d76429b
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - constructhor
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: constructhor_branding
+theme: constructhor
+region: header
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

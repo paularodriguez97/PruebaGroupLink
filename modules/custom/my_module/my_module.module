@@ -1,0 +1,17 @@
+<?php
+/**
+* @file
+* Module file for my module
+* Este módulo crea una página estática con un mensaje de bienvenida.
+*/
+
+/**
+ * Implements hook_theme().
+ */
+function my_module_theme() {
+    return [
+        'my_module_contact_block' => [
+            'template' => 'my_module_contact',
+        ],
+    ];
+}

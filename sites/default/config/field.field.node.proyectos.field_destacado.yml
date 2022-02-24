@@ -1,0 +1,23 @@
+uuid: 511c2c6a-aeb4-4633-9e29-9055b7b5fcd6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_destacado
+    - node.type.proyectos
+id: node.proyectos.field_destacado
+field_name: field_destacado
+entity_type: node
+bundle: proyectos
+label: Destacado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean
