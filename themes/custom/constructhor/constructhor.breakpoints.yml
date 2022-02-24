@@ -1,0 +1,32 @@
+# Configuration of breakpoints with max width restriction in their media queries
+al_dia_foundation.extra_small:
+  label: Extra Small
+  mediaQuery: "all and (min-width: 0)"
+  weight: 0
+  multipliers:
+    - 1x
+  group: constructhor
+
+al_dia_foundation.small:
+  label: Small
+  mediaQuery: "all and (min-width: 480px)"
+  weight: 1
+  multipliers:
+    - 1x
+  group: constructhor
+
+al_dia_foundation.medium:
+  label: Medium
+  mediaQuery: "all and (min-width: 1024px)"
+  weight: 2
+  multipliers:
+    - 1x
+  group: constructhor
+
+al_dia_foundation.large:
+  label: Large
+  mediaQuery: "all and (min-width: 1200px)"
+  weight: 3
+  multipliers:
+    - 1x
+  group: constructhor

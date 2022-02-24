@@ -1,0 +1,222 @@
+.path-frontpage .menu-toggle,
+.path-frontpage .block-system-main-block {
+  display: none; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.main-content h2 {
+  background: white;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.main-content {
+  font-family: Arial, Helvetica, sans-serif; }
+
+#header {
+  background: transparent url("../../assets/images/images.jpg") no-repeat center center;
+  background-size: cover; }
+  #header .site-branding__name a {
+    font-weight: 600;
+    font-size: 34px; }
+  #header .site-branding__slogan {
+    font-size: 15px; }
+  #header .site-branding__logo {
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    border-radius: 50px; }
+
+#views_slideshow_cycle_teaser_section_slideshow-block_1 .views-field-field-imagen {
+  max-height: 400px;
+  overflow: hidden; }
+
+#block-constructhor-views-block-grid-principal-block-1 .clearfix:after {
+  display: none; }
+#block-constructhor-views-block-grid-principal-block-1 .row {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px #808080bf; }
+  #block-constructhor-views-block-grid-principal-block-1 .row::after {
+    display: block;
+    content: "";
+    position: relative;
+    width: 100%;
+    max-width: 400px; }
+  #block-constructhor-views-block-grid-principal-block-1 .row a.use-ajax {
+    display: flex;
+    max-height: 200px;
+    overflow: hidden; }
+  #block-constructhor-views-block-grid-principal-block-1 .row .card-body {
+    padding: 0 15px 15px; }
+    #block-constructhor-views-block-grid-principal-block-1 .row .card-body h3 {
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 0px; }
+#block-constructhor-views-block-grid-principal-block-1 .view-content .views-infinite-scroll-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+#block-constructhor-views-block-grid-principal-block-1 a.button {
+  background: #a7c2e359;
+  border: 0px;
+  color: blue;
+  text-transform: uppercase;
+  border-bottom: 1px solid blue;
+  font-weight: 600;
+  padding: 5px 20px; }
+#block-constructhor-views-block-grid-principal-block-1 .pager {
+  text-align: center;
+  margin-bottom: 70px; }
+
+#block-beneficiosdecontratarconnosotros-3 {
+  background: #ced8fd; }
+  #block-beneficiosdecontratarconnosotros-3 h2 {
+    background: #ced8fd;
+    text-align: center;
+    padding-top: 20px; }
+  #block-beneficiosdecontratarconnosotros-3 .field--name-field-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    #block-beneficiosdecontratarconnosotros-3 .field--name-field-item::after {
+      display: block;
+      content: "";
+      position: relative;
+      width: 100%;
+      max-width: 300px; }
+  #block-beneficiosdecontratarconnosotros-3 .paragraph--type--imagen-and-texto {
+    max-width: 250px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 15px; }
+    #block-beneficiosdecontratarconnosotros-3 .paragraph--type--imagen-and-texto .field--name-field-icono-o-imagen {
+      max-width: 100px;
+      max-height: 100px;
+      overflow: hidden;
+      border-radius: 150px;
+      margin: 20px auto 10px; }
+    #block-beneficiosdecontratarconnosotros-3 .paragraph--type--imagen-and-texto .field--name-field-descripcion {
+      text-align: center; }
+
+#block-contact {
+  background: transparent url("../../assets/images/riesgos-1.jpg") no-repeat center center;
+  background-size: cover; }
+  #block-contact h2 {
+    background: white;
+    font-weight: 600;
+    text-transform: uppercase; }
+  #block-contact .content {
+    margin-top: 0px; }
+  #block-contact form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    background: #b1b1b1c9;
+    padding: 0 15px; }
+    #block-contact form .form-item {
+      max-width: 50%; }
+    #block-contact form input {
+      max-width: 90%; }
+    #block-contact form .form-type-textarea {
+      max-width: 100%;
+      width: 100%; }
+      #block-contact form .form-type-textarea textarea {
+        width: 100%;
+        max-width: 93.5%; }
+    #block-contact form .form-item-department {
+      width: 100%; }
+      #block-contact form .form-item-department select {
+        width: 91%;
+        min-height: 25px;
+        border: 0px;
+        background: white; }
+    #block-contact form #dropdown-second-replace {
+      width: 50%; }
+    #block-contact form .form-item-city {
+      width: 100%;
+      max-width: 316px; }
+      #block-contact form .form-item-city select {
+        width: 100%;
+        min-height: 25px;
+        border: 0px;
+        background: white; }
+    #block-contact form .button--submit {
+      background: #ffc3ad;
+      margin-bottom: 20px;
+      font-size: 15px;
+      color: #c54a4a;
+      font-weight: 600; }
+
+.pager {
+  margin-top: 40px; }
+  .pager .pager__item {
+    font-size: 15px;
+    background: beige;
+    border-radius: 50px; }
+    .pager .pager__item a {
+      color: black;
+      border: 0px; }
+  .pager .pager__item--ellipsis,
+  .pager .pager__item--next,
+  .pager .pager__item--last,
+  .pager .pager__item--previous,
+  .pager .pager__item--first {
+    background: transparent; }
+
+.hidden-modal-notification {
+  display: none; }
+
+.modal-notification {
+  border-radius: 5px;
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #394174;
+  width: 100%;
+  max-width: 200px;
+  align-items: center;
+  position: fixed;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+#edit-close {
+  max-width: 20px !important;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  margin-right: 30px; }
+
+.ui-widget.ui-widget-content {
+  width: 100% !important;
+  max-width: 700px; }
+
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #4383e3;
+  background: #a4c1ed; }
+
+@media (max-width: 769px) {
+  .region-primary-menu .menu-item, body:not(:target) .region-primary-menu .menu-item {
+    float: none; }
+
+  .main-content h2 {
+    text-align: center; }
+
+  #block-constructhor-views-block-grid-principal-block-1 .view-content .views-infinite-scroll-content-wrapper {
+    justify-content: center; }
+
+  #block-beneficiosdecontratarconnosotros-3 .field--name-field-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
+/*# sourceMappingURL=main.css.map */

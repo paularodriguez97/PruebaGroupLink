@@ -1,0 +1,18 @@
+global:
+  version: VERSION
+  css:
+    theme:
+      assets/css/main.css: {}
+  js:
+    src/js/main.js: {}
+  dependencies:
+    - core/jquery
+
+
+slick:
+  version: 1.4
+  js:
+    assets/libraries/slick/slick.min.js: { minified: true, attributes: { defer: true } }
+  css:
+    theme:
+      assets/libraries/slick/slick.css: {}

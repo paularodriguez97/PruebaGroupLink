@@ -1,0 +1,40 @@
+name: Constructhor Theme
+type: theme
+description: description
+core_version_requirement: ^8 || ^9
+libraries:
+  - constructhor/global
+  - constructhor/sumoselect
+  - constructhor/slick
+
+base theme: bartik
+
+stylesheets-remove:
+- '@bartik/css/components/comments.css'
+- '@bartik/css/components/toolbar.css'
+- '@bartik/css/components/password-suggestions.css'
+- '@bartik/css/components/container-inline.module.css'
+- '@bartik/css/components/page-title.css'
+- '@bartik/css/classy/components/node.css'
+- '@bartik/css/classy/components/tablesort.css'
+- '@bartik/css/components/contextual.css'
+- '@bartik/css/components/help.css'
+- '@bartik/css/components/forum.css'
+- '@bartik/css/components/ui.widget.css'
+- '@bartik/css/classy/components/textarea.css'
+- '@bartik/css/classy/components/more-link.css'
+- '@bartik/css/components/list-group.css'
+- '@bartik/css/classy/components/tabledrag.css'
+- '@bartik/css/components/list-group.css'
+
+regions:
+  sidebar_first: Sidebar first
+  sidebar_second: Sidebar second
+  content: Content
+  header: Header
+  primary_menu: Primary menu
+  secondary_menu: Secondary menu
+  footer_fifth: Footer
+  highlighted: Highlighted
+  help: Help
+  breadcrumb: Breadcrumb
